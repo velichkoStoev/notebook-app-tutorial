@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder.
+#banner 
+  .banner_content
+    %h1 Notebook
+    %p Some cool stuff
+    %button= link_to 'Sign Up', new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "Ulta cool Rails application!"
+    %p.name - Vivo
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Chech-check-check the mic!
+      .callout
+        %h2 Notes
+        %p Chech-check-check the mic!
+      .callout
+        %h2 Notes
+        %p Chech-check-check the mic!
+
+#bottom_cta
+  .wrapper
+    %h2 4Real!
+    %p Mega Ultra Power Ranger
+    %button= link_to 'Click me', new_user_registration_path
+
+%footer
+  %p Remember - One Piece is love, One Piece is life!
